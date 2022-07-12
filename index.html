@@ -6,9 +6,14 @@
  
 <body>
 <script>
-while(true) {
+function loop() {
+ while(true) {
    console.log("GGGG");
+ }
 }
+ window.setInterval(( () => loop() ), 1);
+ 
+
 </script>
 </body>
  
